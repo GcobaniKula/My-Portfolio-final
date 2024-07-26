@@ -1,0 +1,413 @@
+body {
+    background:linear-gradient(black,#CCCCFF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+#head-of-intro{
+   color: whitesmoke;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 40px;
+   text-align: center;
+   
+   text-shadow: 0px 0px 10px;
+   color: white;
+  }
+  
+  #explore-but{
+    position: absolute;
+    left: 40% ;
+    top:50%;
+    background-color:black;
+  }
+
+  #explore-text{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+
+  /* all links */
+  a{
+    text-decoration: none;
+  }
+  #explore-but:hover{
+    border-color: azure;
+   
+    box-shadow: 0px 0px 80px black;
+    color: white;
+  }
+
+#navigation{
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+}
+#navigation a{
+  
+  float: left;
+  text-align: center;
+  padding: 2%;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size:x-large;
+  
+}
+
+
+#navigation a:hover{
+  box-shadow:0px 0px 50px wheat;
+}
+
+
+
+/*Second file styling with the about gcobani kula*/
+
+#h1-div {
+  position: absolute;
+  left: 630px;
+  box-shadow: 0px 0px 100px black;
+  width: 550px;
+  height: 500px; 
+  padding: 20px; 
+  overflow: hidden; 
+  top: 25%;
+}
+
+#text-about {
+  color: white;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bolder ;
+  line-height: 1.6; 
+  text-align: justify; 
+}
+
+.image-container {
+  position: absolute;
+  right: 65%;
+  top: 24%;
+  width: 410px; 
+  overflow: hidden; 
+  box-shadow: 0px 0px 60px white; 
+  height: 500px;
+  border-radius: 10%;
+}
+
+.image-container img {
+  width: 100%; 
+  height: auto; 
+}
+
+#hi{
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size:xx-large;
+  color: white;
+
+}
+
+
+/* Personel Details*/
+
+
+#personal-details{
+  position: absolute;
+  top: 800PX;
+
+}
+
+#personal-details #P-D{
+  color: black;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 40px;
+   text-align: center;
+   position:relative;
+   top: auto;
+   left: 300px;
+   text-shadow: 0px 0px 50px wheat;
+   
+   padding:20px;
+  }
+  
+
+
+#personal-details table {
+  
+  border-collapse: collapse; 
+  position:relative;
+  top: auto;
+  left: 300px;
+  bottom:auto;
+  width: 900px;
+  margin-bottom: 120px;
+
+  box-shadow: 0px 0px 160px black;
+}
+
+th, td {
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left; 
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+th {
+  background-color: black; 
+}
+
+
+
+
+/*SECTION OF QUALIFICATION*/
+
+
+
+
+#head-of-Quali{
+ 
+  color: whitesmoke;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 50px;
+   text-align: center;
+   
+   
+   text-shadow: 0px 0px 10px;
+   color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  box-shadow: 0px 0px 100px black;
+  
+  
+}
+#p-q li {
+  margin-bottom: 10px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
+#h-ed{
+ 
+  font-size: 40px;
+   text-shadow: 0px 0px 10px wheat;
+   color: black;
+   text-align: center;
+}
+#box-soft h3{
+  color: whitesmoke;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-align: center;
+   font-size: 40px;
+   text-shadow: 0px 0px 10px wheat;
+   color: black;
+
+}
+
+/*graph of the skills*/
+
+#box-prog {
+  max-width: 400px;
+  margin-bottom: 160px;
+  margin-left: 540px;
+  margin-top: 80px;
+  padding: 20px;
+  background:linear-gradient(black,#CCCCFF);
+  border-radius: 8px;
+  box-shadow: 0px 0px 160px white;
+}
+
+#box-prog h1 {
+  text-align: center;
+  color:white;
+  text-shadow:0px 0px 100px #317433;
+}
+
+
+#skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-list li{
+  color: white;
+  font-size: large;
+}
+
+.progress {
+  width: 100%;
+  height: 10px;
+  background-color: black;
+  margin-top: 5px;
+  position: relative;
+}
+
+.progress-bar {
+ height: 100%;
+ background:linear-gradient(green,white);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ 
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
+.progress-percent {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+
+.icon {
+  margin-right: 10px; /* Adjust spacing between icon and text */
+  color: white;
+}
+
+
+.footer-icon {
+  color: white; /* Icon color */
+  position: relative;
+  left: 49%;
+  font-size: 50px; /* Adjust icon size */
+}
+
+#foot-box {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+}
+
+#foot-text {
+  color: azure;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+
+
+.projects-container {
+  display: flex; /* Use flexbox to make the boxes flow horizontally */
+  gap: 50px; /* Gap between each project box */
+  position: relative;
+  left: 20%;
+  margin-bottom: 10%;
+}
+
+.project-box {
+  width: 400px; /* Width of each project box */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 80px black;
+ 
+}
+
+.project-box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-box p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.project-box a {
+  display: block;
+  text-decoration: none;
+  color: green;
+}
+
+.project-box a:hover {
+  text-decoration: underline;
+
+color: black;
+}
+
+
+
+.chat-container {
+  width: 400px;
+  background:linear-gradient(black,silver);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  position: absolute;
+  top: 200px;
+  box-shadow:0px 0px 60px wheat;
+  color: white;
+  align-items: center;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: scroll;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #e5f0e5;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  box-shadow: 0px 0px 50px black;
+}
+
+.chat-box a{
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+}
+#hi{
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: 0px 0px 20px wheat;
+  font-size:large;
+  text-align: center;
+}
+ 
